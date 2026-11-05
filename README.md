@@ -18,14 +18,14 @@ Informații afișate (read-only): Lista zborurilor, companiile aeriene, prețuri
 
 Informații modificabile (interactive): Datele de căutare (rută, număr pasageri), filtrele aplicate, preferințele contului (monedă, limbă).
 
-4. Datele rămân în browser sau pe server?
+Datele rămân în browser sau pe server?
 
 Datele necesită salvarea și procesarea pe un server.
 
 Zborurile trebuie preluate în timp real printr-un API extern, iar conturile utilizatorilor și zborurile salvate trebuie stocate într-o bază de date pentru a persista între dispozitive.
 Browserul (LocalStorage) este folosit doar temporar, pentru a reține filtrele în sesiunea curentă.
 
-5. Ce pagini/secțiuni sunt necesare?
+Ce pagini/secțiuni sunt necesare?
 Home: Motorul principal de căutare.
 Search Results: Lista zborurilor + bara de filtre.
 Flight Details: Informații specifice despre un zbor ales.
