@@ -18,8 +18,8 @@ Datele necesită salvarea și procesarea pe un server.
 Zborurile trebuie preluate în timp real printr-un API extern, iar conturile utilizatorilor și zborurile salvate trebuie stocate într-o bază de date pentru a persista între dispozitive. Browserul (LocalStorage) este folosit doar temporar, pentru a reține filtrele în sesiunea curentă.
 
 5. Ce pagini/secțiuni sunt necesare?
-1. Home: Motorul principal de căutare.
-2. Search Results: Lista zborurilor + bara de filtre.
-3. Flight Details: Informații specifice despre un zbor ales.
-4. Auth (Login/Register): Pentru crearea contului.
-5. Dashboard/Profil: Zborurile salvate și istoricul.
+Home: Motorul principal de căutare.
+Search Results: Lista zborurilor + bara de filtre.
+Flight Details: Informații specifice despre un zbor ales.
+Auth (Login/Register): Pentru crearea contului.
+Dashboard/Profil: Zborurile salvate și istoricul.
